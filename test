@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class FrequentietabelLengte {
+
+public static void main (String[] args) {
+
+int[] lengte = new int[1000];
+Random rand = new Random();
+
+for(int i = 0; i < lengte.length; i++){
+            lengte[i] = rand.nextInt();    
+               System.out.println(lengte);        
+}
+}
+}
